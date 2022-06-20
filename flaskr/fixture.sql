@@ -1,4 +1,4 @@
-INSERT INTO tracks (id, title, artist, genre, lenght)
+INSERT INTO tracks (id,title,artist,genre,running)
 VALUES
     (1, 'Monster', 'Skillet', 'alternative rock', 189),
     (2, 'Holiday', 'Green Day', 'punk', 203),

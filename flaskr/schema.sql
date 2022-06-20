@@ -5,5 +5,5 @@ CREATE TABLE tracks (
     title TEXT NOT NULL,
     artist TEXT NOT NULL,
     genre TEXT NOT NULL,
-    length INTEGER NOT NULL
+    running INTEGER NOT NULL
 );

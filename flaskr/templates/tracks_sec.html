@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <title>Homework #3</title>
+    {% endblock %}
+</head>
+<body>
+    <h1>{% block title %}Tracks information{% endblock %}</h1>
+    <div id="content">
+        {% block content %}
+    <ul>
+    {% for i in sec %}
+        <li>"{{i.0}}" - {{i.1}} sec.</li>
+    {% endfor %}
+    </ul>
+    {% endblock %}
+    </div>
+</body>
+</html>
