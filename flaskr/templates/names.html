@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <title>Homework #3</title>
+    {% endblock %}
+</head>
+<body>
+    <h1>{% block title %}The number of artists{% endblock %}</h1>
+    <div id="content">{% block content %}Our site have {{artist.0}} unique artists now{% endblock %}</div>
+</body>
+</html>
